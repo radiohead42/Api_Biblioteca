@@ -11,15 +11,18 @@ namespace Api_Biblioteca.Controllers
     public class AutoresController : ControllerBase
     {
         private readonly ApplicationDbContext context;
+        private readonly ILogger<AutoresController> logger;
 
-        public AutoresController(ApplicationDbContext context)
+        public AutoresController(ApplicationDbContext context, ILogger<AutoresController>logger)
         {
             this.context = context;
+            this.logger = logger;
         }
 
         [HttpGet]
         public async Task<IEnumerable<Autor>> Get()
         {
+            logger.LogInformation("Obteniendo el listado de autores");
             return await context.Autores.ToListAsync();
         }
 
