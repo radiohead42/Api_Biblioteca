@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\controllers\\valorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\controllers\\valorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\repositoriovaloresoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\repositoriovaloresoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\dtos\\comentariocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\dtos\\comentariocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\dtos\\comentariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\dtos\\comentariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\entidades\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\entidades\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValoresController.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\ValoresController.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\Controllers\\ValoresController.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\ValoresController.cs",
-              "RelativeToolTip": "Api_Biblioteca\\Controllers\\ValoresController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowD0AAAAQAAAAAAAAAA==",
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\Controllers\\AutoresController.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "Api_Biblioteca\\Controllers\\AutoresController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T21:41:42.159Z",
+              "WhenOpened": "2025-02-10T21:49:32.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T20:56:22.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComentarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\DTOs\\ComentarioDTO.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\DTOs\\ComentarioDTO.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\DTOs\\ComentarioDTO.cs",
+              "RelativeToolTip": "Api_Biblioteca\\DTOs\\ComentarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T20:55:49.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Entidades\\Comentario.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\Entidades\\Comentario.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Entidades\\Comentario.cs",
+              "RelativeToolTip": "Api_Biblioteca\\Entidades\\Comentario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T20:54:31.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RepositorioValoresOracle.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\RepositorioValoresOracle.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\RepositorioValoresOracle.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\RepositorioValoresOracle.cs",
-              "RelativeToolTip": "Api_Biblioteca\\RepositorioValoresOracle.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wBYAAAAtAAAAAAAAAA==",
+              "Title": "ComentarioCreacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\DTOs\\ComentarioCreacionDTO.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\DTOs\\ComentarioCreacionDTO.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\DTOs\\ComentarioCreacionDTO.cs",
+              "RelativeToolTip": "Api_Biblioteca\\DTOs\\ComentarioCreacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T21:41:23.773Z",
+              "WhenOpened": "2025-02-10T20:54:21.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Program.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\Program.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Program.cs",
-              "RelativeToolTip": "Api_Biblioteca\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "ComentariosController.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\ComentariosController.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\Controllers\\ComentariosController.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\ComentariosController.cs",
+              "RelativeToolTip": "Api_Biblioteca\\Controllers\\ComentariosController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwIoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T21:07:58.872Z",
+              "WhenOpened": "2025-02-10T20:24:16.483Z",
               "EditorCaption": ""
             }
           ]

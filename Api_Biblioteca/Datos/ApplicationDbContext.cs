@@ -9,9 +9,14 @@ namespace Api_Biblioteca.Datos
         {
 
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);//No borrar
+        }
 
         public DbSet<Autor> Autores { get; set; }
         public DbSet<Libro> Libros { get; set; }
+        public DbSet<Comentario> Comentarios { get; set; }
 
     }
 }

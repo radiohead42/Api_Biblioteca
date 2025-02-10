@@ -10,16 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 //Area de servicios
 //isntancia de repositorios valores quse se podra usar despues por inyeccion
 //tambin solo se pueden poner los constructores de las clases
-builder.Services.AddTransient<ServicioTransient>();
 
-builder.Services.AddScoped<ServicioScope>();
+builder.Services.AddAutoMapper(typeof(Program));
 
-builder.Services.AddSingleton<ServicioSingleton>();
-
-builder.Services.AddSingleton<IRepositorioValores, RepositorioValoresOracle>();
-
-builder.Services.AddControllers().AddJsonOptions(opciones =>
-    opciones.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+builder.Services.AddControllers().AddNewtonsoftJson();
+    //.AddJsonOptions(opciones =>
+    //opciones.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 //Toma el archivo ApplciationDbContext y pasa valores al contructor
 builder.Services.AddDbContext<ApplicationDbContext>(opciones => 
@@ -30,7 +26,5 @@ var app = builder.Build();
 //Area de middlewares
 
 app.MapControllers();
-
-app.MapGet("/", () => "Hello World!");
 
 app.Run();
