@@ -29,10 +29,11 @@ namespace Api_Biblioteca.Controllers
         }
 
         [HttpGet("{id:int}", Name = "ObtenerLibro")]
-        public async Task<ActionResult<LibroConAutorDTO>> Get(int id)
+        public async Task<ActionResult<LibroConAutoresDTO>> Get(int id)
         {
             var libros = await context.Libros
                 .Include(x => x.Autores)
+                .ThenInclude(x => x.Autor)
                 .FirstOrDefaultAsync(x => x.Id == id);
 
             if (libros is null)
@@ -40,7 +41,7 @@ namespace Api_Biblioteca.Controllers
                 return NotFound();
             }
 
-            var librosDTO = mapper.Map<LibroConAutorDTO>(libros);
+            var librosDTO = mapper.Map<LibroConAutoresDTO>(libros);
 
             return Ok(librosDTO);
 
@@ -53,7 +54,7 @@ namespace Api_Biblioteca.Controllers
             if(libroCreacionDTO.AutoresIds is null || libroCreacionDTO.AutoresIds.Count == 0)
             {
                 ModelState.AddModelError(nameof(libroCreacionDTO.AutoresIds),
-                    "No se puede crear un librop sin autores");
+                    "No se puede crear un libro sin autores");
                 return ValidationProblem();
             }
 
@@ -72,30 +73,69 @@ namespace Api_Biblioteca.Controllers
             }
 
             var libro = mapper.Map<Libro>(libroCreacionDTO);
+            AsignarOrden(libro);
             
             context.Add(libro);
             await context.SaveChangesAsync();
+
             var libroDTO = mapper.Map<LibroDTO>(libro);
+
             return CreatedAtRoute("ObtenerLibro", new { id = libro.Id }, libroDTO);
         }
 
-        //[HttpPut("{id:int}")]
-        //public async Task<ActionResult> Put(int id, LibroCreacionDTO libroCreacionDTO)
-        //{
+        private void AsignarOrden(Libro libro)
+        {
+            if (libro.Autores is not null)
+            {
+                for (int i = 0; i < libro.Autores.Count; i++)
+                {
+                    libro.Autores[i].Orden = i;
+                }
+            }
+        }
 
-        //    var libro = mapper.Map<Libro>(libroCreacionDTO);
-        //    libro.Id = id;
-        //    var existeAutor = await context.Autores.AnyAsync(x => x.Id == libro.AutorId);
-        //    if (!existeAutor)
-        //    {
-        //        return BadRequest("No existe el autor");
-        //    }
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> Put(int id, LibroCreacionDTO libroCreacionDTO)
+        {
 
-        //    context.Update(libro);
-        //    await context.SaveChangesAsync();
-        //    return NoContent();
+            if (libroCreacionDTO.AutoresIds is null || libroCreacionDTO.AutoresIds.Count == 0)
+            {
+                ModelState.AddModelError(nameof(libroCreacionDTO.AutoresIds),
+                    "No se puede crear un libro sin autores");
+                return ValidationProblem();
+            }
 
-        //}
+            var AutoresIdsExisten = await context.Autores.Where(x => libroCreacionDTO.AutoresIds.Contains(x.Id))
+                .Select(x => x.Id).ToListAsync();
+
+            //validar autores que no existen
+            if (AutoresIdsExisten.Count != libroCreacionDTO.AutoresIds.Count)
+            {
+                var autoresNoExisten = libroCreacionDTO.AutoresIds.Except(AutoresIdsExisten);
+                var autoresNoExistenString = string.Join(",", autoresNoExisten);
+                var mensajeDeError = $"Los siguientes autores no existen: {autoresNoExistenString}";
+
+                ModelState.AddModelError(nameof(libroCreacionDTO.AutoresIds), mensajeDeError);
+                return ValidationProblem();
+            }
+
+            var libroDB = await context.Libros
+                .Include(x => x.Autores)
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (libroDB == null)
+            {
+                return NotFound();
+            } 
+
+            libroDB = mapper.Map(libroCreacionDTO, libroDB);
+
+            AsignarOrden(libroDB);
+
+            await context.SaveChangesAsync();
+            return NoContent();
+
+        }
 
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> Delete(int id)

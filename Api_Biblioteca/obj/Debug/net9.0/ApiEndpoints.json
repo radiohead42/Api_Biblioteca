@@ -36,6 +36,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api_Biblioteca.Controllers.AutoresColeccionController",
+    "Method": "Post",
+    "RelativePath": "api/autores-coleccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorCreacionDTOs",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Biblioteca.DTOs.AutorCreacionDTO, Api_Biblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api_Biblioteca.Controllers.AutoresController",
     "Method": "Get",
     "RelativePath": "api/autores/{id}",
@@ -172,7 +188,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Api_Biblioteca.DTOs.LibroConAutorDTO",
+        "Type": "Api_Biblioteca.DTOs.LibroConAutoresDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
