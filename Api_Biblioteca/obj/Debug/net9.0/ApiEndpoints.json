@@ -52,6 +52,33 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api_Biblioteca.Controllers.AutoresColeccionController",
+    "Method": "Get",
+    "RelativePath": "api/autores-coleccion/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Api_Biblioteca.DTOs.AutorConLibrosDTO, Api_Biblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerAutoresPorIds"
+  },
+  {
     "ContainingType": "Api_Biblioteca.Controllers.AutoresController",
     "Method": "Get",
     "RelativePath": "api/autores/{id}",
@@ -135,6 +162,86 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "Get",
+    "RelativePath": "api/configuraciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "GetObtenerTodos",
+    "RelativePath": "api/configuraciones/obtenertodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "GetProvedor",
+    "RelativePath": "api/configuraciones/provedores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "GetSeccion01",
+    "RelativePath": "api/configuraciones/seccion1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "GetSeccion02",
+    "RelativePath": "api/configuraciones/seccion2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "GetSeccion",
+    "RelativePath": "api/configuraciones/secciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Api_Biblioteca.Controllers.LibrosController",

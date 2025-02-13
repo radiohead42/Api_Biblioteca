@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\controllers\\autorescoleccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\controllers\\autorescoleccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\dtos\\autorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\dtos\\autorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\controllers\\configuracionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\controllers\\configuracionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|c:\\users\\cts\\source\\repos\\api_biblioteca\\api_biblioteca\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F1C801B-6A2D-49C8-B80F-6A183FE3835C}|Api_Biblioteca\\Api_Biblioteca.csproj|solutionrelative:api_biblioteca\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AutoresColeccionController.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\AutoresColeccionController.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\Controllers\\AutoresColeccionController.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\AutoresColeccionController.cs",
-              "RelativeToolTip": "Api_Biblioteca\\Controllers\\AutoresColeccionController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:43:17.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
-              "RelativeToolTip": "Api_Biblioteca\\Utilidades\\AutoMapperProfiles.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:39:00.658Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Api_Biblioteca\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T22:20:02.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutorCreacionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\DTOs\\AutorCreacionDTO.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\DTOs\\AutorCreacionDTO.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\DTOs\\AutorCreacionDTO.cs",
-              "RelativeToolTip": "Api_Biblioteca\\DTOs\\AutorCreacionDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\appsettings.json",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\appsettings.json",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\appsettings.json",
+              "RelativeToolTip": "Api_Biblioteca\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T22:14:49.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfiguracionesController.cs",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\ConfiguracionesController.cs",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\Controllers\\ConfiguracionesController.cs",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\ConfiguracionesController.cs",
+              "RelativeToolTip": "Api_Biblioteca\\Controllers\\ConfiguracionesController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:25:42.597Z",
+              "WhenOpened": "2025-02-13T21:04:55.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AutoresController.cs",
-              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\AutoresController.cs",
-              "RelativeDocumentMoniker": "Api_Biblioteca\\Controllers\\AutoresController.cs",
-              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\Controllers\\AutoresController.cs",
-              "RelativeToolTip": "Api_Biblioteca\\Controllers\\AutoresController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwDoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:19:57.106Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Api_Biblioteca\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\CTS\\source\\repos\\Api_Biblioteca\\Api_Biblioteca\\appsettings.Development.json",
+              "RelativeToolTip": "Api_Biblioteca\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T21:02:45.557Z",
               "EditorCaption": ""
             }
           ]
