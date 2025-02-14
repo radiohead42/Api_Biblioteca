@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace Api_Biblioteca.Controllers
 {
@@ -9,12 +10,22 @@ namespace Api_Biblioteca.Controllers
         private readonly IConfiguration configuration;
         private readonly IConfigurationSection seccion_01;
         private readonly IConfigurationSection seccion_02;
+        private readonly PersonaOpciones _opcionesPersona;
 
-        public ConfiguracionesController(IConfiguration configuration)
+        //IOptionSnapshot: Si actualiza los valores pero solo es un poco mas lenta
+        public ConfiguracionesController(IConfiguration configuration, 
+            IOptionsSnapshot<PersonaOpciones> opcionesPersona)
         {
             this.configuration = configuration;
             seccion_01 = configuration.GetSection("seccion_1");
             seccion_02 = configuration.GetSection("seccion_2");
+            _opcionesPersona = opcionesPersona.Value;
+        }
+
+        [HttpGet("seccion_1_opciones")]
+        public ActionResult GetSeccion10Opciones()
+        {
+            return Ok(_opcionesPersona);
         }
 
         [HttpGet("provedores")]

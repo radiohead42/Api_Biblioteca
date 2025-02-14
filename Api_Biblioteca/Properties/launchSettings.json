@@ -16,7 +16,7 @@
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7044;http://localhost:5146",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Develoment",
+        "ASPNETCORE_ENVIRONMENT": "Development",
         "quien_soy": "una variable de ambiente"
       }
     }

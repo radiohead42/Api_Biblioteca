@@ -205,6 +205,16 @@
   },
   {
     "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
+    "Method": "GetSeccion10Opciones",
+    "RelativePath": "api/configuraciones/seccion_1_opciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Biblioteca.Controllers.ConfiguracionesController",
     "Method": "GetSeccion01",
     "RelativePath": "api/configuraciones/seccion1",
     "HttpMethod": "GET",

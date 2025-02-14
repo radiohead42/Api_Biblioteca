@@ -21,7 +21,6 @@ C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\staticw
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Api_Biblioteca.props
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Api_Biblioteca.props
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\Api_Biblioteca.dll
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\refint\Api_Biblioteca.dll
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\Api_Biblioteca.pdb
@@ -156,3 +155,4 @@ C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\bin\Debug\net9.0\Microso
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\CTS\source\repos\Api_Biblioteca\Api_Biblioteca\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
