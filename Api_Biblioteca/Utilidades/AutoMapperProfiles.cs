@@ -44,8 +44,11 @@ namespace Api_Biblioteca.Utilidades
             //        config.MapFrom(ent => MapearNombreYApellidoAutor(ent.Autor!)));
 
             CreateMap<ComentarioCreacionDTO,  Comentario>();
-            CreateMap<Comentario, ComentarioDTO>();
+            CreateMap<Comentario, ComentarioDTO>()
+                .ForMember(dto => dto.UsuarioEmail, config => config.MapFrom(ent => ent.Usuario!.Email));
             CreateMap<ComentarioPatchDTO, Comentario>().ReverseMap();
+
+            CreateMap<Usuario, UsuarioDTO>();
 
         }
 

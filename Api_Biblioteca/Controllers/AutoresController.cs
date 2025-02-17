@@ -2,6 +2,7 @@
 using Api_Biblioteca.DTOs;
 using Api_Biblioteca.Entidades;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +11,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Api_Biblioteca.Controllers
 {
     [ApiController]
-    [Route("api/autores")] 
+    [Route("api/autores")]
+    [Authorize(Policy = "esadmin")]
     public class AutoresController : ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -23,6 +25,7 @@ namespace Api_Biblioteca.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]//permite el acceso al endpoint a cualquier usuario
         public async Task<IEnumerable<AutorDTO>> Get()
         {
             var autores = await context.Autores.ToListAsync();
